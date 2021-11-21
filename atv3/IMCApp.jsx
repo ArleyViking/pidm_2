@@ -34,6 +34,7 @@ export default class IMCApp extends Component{
     render(){
         return(
             <View>
+                <Text style={{fontSize: 24, fontWeight: "600", marginBottom:10 }}>CALCULADORA DE IMC</Text>
                 <TextInput
                 style={{height:30, backgroundColor: "#e7e7e6", marginTop:10 , marginBottom: 5, padding: 20, borderRadius: 5}}
                 placeholder="Digite sua altura"
