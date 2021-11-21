@@ -1,38 +1,18 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, TouchableHighlight, FlatList } from 'react-native';
-import CalculadoraApp from './Calculadora';
-import Tradutor from './TradutorPizza';
+import IMCApp from './IMCApp';
+
+
 
 
 export default function App() {
 
-  function ApertouBotao(){ 
-    alert("voce apertou")
-  }
     return (
-    <View style={{flex: 1,backgroundColor: '#FAFAFA', padding: 32, paddingTop: 64}}>
-      <View>
-        <Text style={styles.texto}>PIDM AULA 06</Text>
-        <TouchableHighlight underlayColor='#c1c1c1'  style={styles.botao} onPress={ApertouBotao}>
-          <Text style={styles.texto_b}> SOU UM BOTÃO</Text>  
-        </TouchableHighlight>
+    <View style={{ padding: 32, flex:1, justifyContent: "center"}}>
+      <View style={{}}>
+        <Text style={{fontSize: 24, fontWeight: "600", marginBottom:10 }}>CALCULADORA DE IMC</Text>
+        <IMCApp></IMCApp>
 
-        <FlatList
-          data={
-            [
-            {nome: 'arleu', key: '1'},
-          ]
-        }
-        renderItem = {
-          ({item})=>{
-            return  (
-              <View>
-                <Text style={{padding: 15, fontSize: 14}}> {item.nome}</Text>
-              </View>
-            )
-          }
-        }
-        />
       </View>
       
        
@@ -51,11 +31,6 @@ const styles = StyleSheet.create({
     color: "#FFF",
     alignItems: 'center',
     borderRadius: 5,
-  },
-  texto:{
-    fontWeight: "400",
-    marginBottom: 4,
-    fontSize: 20,
   },
   texto_d:{
     lineHeight: 20,
