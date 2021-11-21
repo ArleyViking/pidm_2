@@ -21,15 +21,6 @@ export default function App() {
           data={
             [
             {nome: 'arleu', key: '1'},
-            {nome: 'arleu', key: '2'},
-            {nome: 'arleu', key: '3'},
-            {nome: 'arleu', key: '4'},
-            {nome: 'arleu', key: '5'},
-            {nome: 'arleu', key: '6'},
-            {nome: 'arleu', key: '7'},
-            {nome: 'arleu', key: '8'},
-            {nome: 'arley', key: '9'},
-            {nome: 'arley', key: '10'}
           ]
         }
         renderItem = {
