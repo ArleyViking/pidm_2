@@ -2,6 +2,7 @@ import React from 'react'
 import { View, Text } from 'react-native'
 import ImcMsg from './IMCMsg'
 
+
 const CalculadoradeIMC = (props) => {
 
     const imc = props.peso / (props.altura * props.altura)

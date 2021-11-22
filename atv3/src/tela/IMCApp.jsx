@@ -4,6 +4,7 @@ import CalculadoradeIMC from "../components/ImcCalc";
 
 
 
+
 export default class IMCApp extends Component{
 
     constructor(props){
