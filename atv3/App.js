@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, TouchableHighlight, FlatList } from 'react-native';
-import IMCApp from './IMCApp';
+import IMCApp from './src/tela/IMCApp';
 
 
 

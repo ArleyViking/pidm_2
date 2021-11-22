@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {View, Text, TextInput, Button} from 'react-native'
-import CalculadoradeIMC from "./ImcCalc";
+import CalculadoradeIMC from "../components/ImcCalc";
 
 
 
