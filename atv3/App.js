@@ -8,10 +8,10 @@ import IMCApp from './src/tela/IMCApp';
 export default function App() {
 
     return (
-    <View style={{ padding: 32, flex:1, justifyContent: "center"}}>
+    <View style={{flex:1, alignItems: 'center', justifyContent: 'center'}}>
       <View>
         
-        <IMCApp></IMCApp>
+       <IMCApp></IMCApp>
 
       </View>
       

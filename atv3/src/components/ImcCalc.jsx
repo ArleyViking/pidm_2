@@ -9,7 +9,7 @@ const CalculadoradeIMC = (props) => {
  
     if (props.altura != null && props.peso != null)
         return (
-            <View>
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center'}}>
                 <Text style={{ fontSize: 24, fontWeight: "600" }}>
                     Seu IMC é: {imc}
                 </Text>

@@ -11,7 +11,7 @@ export default class ImcMsg extends Component {
     render(){
         if(this.props.imc < 17)
         return(
-            <View>
+            <View style={{flex:1, justifyContent: 'center'}}>
                 <Text style={styles.texto_2}>Muito abaixo do peso</Text>
             </View>
         )
