@@ -5,7 +5,8 @@ export default class ImcMsg extends Component {
     
     constructor(props){
         super(props)
-        console.log("imc da pessoa:" + props.imc)
+        console.log("PROPS:" + props)
+        console.log("IMC DA PESSOA:" + props.imc)
     }
     
     render(){
