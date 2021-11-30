@@ -17,10 +17,10 @@ import ModalResultadoIMC from "./components/ModalResultadoIMC";
 function StackPrincipalTela(){
     return (
         <StackPrincipal.Navigator initialRouteName='Home'>
-            <StackPrincipal.Screen name='Home' component={Home}/>
-            <StackPrincipal.Screen name='Sobre' component={Sobre}/>
-            <StackPrincipal.Screen name='Cadastro' component={Cadastro}/>
-            <StackPrincipal.Screen name='Calcular' component={IMCApp}/>
+            <StackPrincipal.Screen name='Home' component={Home} options={{title: 'Tela inicial', headerStyle:{backgroundColor:'orange'}}}/>
+            <StackPrincipal.Screen name='Sobre' component={Sobre} options={{headerStyle:{backgroundColor:'orange'},headerTitleAlign:'center'}}/>
+            <StackPrincipal.Screen name='Cadastro' component={Cadastro} options={{headerStyle:{backgroundColor:'orange'},headerTitleAlign:'center'}}/>
+            <StackPrincipal.Screen name='Calcular' component={IMCApp} options={{headerStyle:{backgroundColor:'orange'},headerTitleAlign:'center'}}/>
         </StackPrincipal.Navigator>
     )
 }
